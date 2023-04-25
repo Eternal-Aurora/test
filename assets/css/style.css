@@ -107,16 +107,16 @@ nav.navbar.bootsnav.no-background {
 nav.navbar.bootsnav {
     background-color: #fff;
     border-bottom: transparent;
-    box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+    /* box-shadow: 0 3px 15px rgba(0,0,0,0.2); */
 }
 
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
-    color: #0ba6d1;
+    color: #0095be;
     font-size: 20px;
     font-weight: 600;
-    padding: 33px 0px 57px;
+    padding: 30px 7px;
     text-transform: uppercase;
 }
 /*.navbar-brand*/
@@ -132,7 +132,7 @@ nav.navbar.bootsnav ul.nav > li > a {
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
 }
-nav.navbar.bootsnav ul.nav > li > a {padding: 35px 20px;}
+nav.navbar.bootsnav ul.nav > li > a {padding: 20px 20px;}
 nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus,nav.navbar.bootsnav ul.nav > li.active>a{color: #1451ec;}
 
 nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
@@ -174,10 +174,28 @@ nav.navbar.bootsnav .navbar-toggle {
 nav.navbar.bootsnav .navbar-toggle i{color: #17dff1;}
 /*.navbar-toggle */
 
+
 /* 音乐播放器 */
 .yinyue {
-    padding-top: 30px;
+    padding-top: 15px;
 }
+
+.insert-web {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 215;
+    margin: auto;
+    background-color:none;
+    width: 800px;
+    height: 600px;
+}
+
+
+
+
+
 
 /*-------------------------------------
         3.  Welcome-hero
@@ -241,7 +259,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #17dff1;}
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-.about {padding: 50px 0 100px;}
+.about {padding: 20px 0 100px;}
 .about-content {padding-top: 100px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
@@ -369,13 +387,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .skills {
     
 }
-.skill-content{padding: 50px 0 80px;}
+.skill-content{padding: 20px 0 80px;}
 .single-skill-content{padding-top: 100px;}
 .section-heading h2 {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #e5ebf2;
 }
 .single-progress-txt {
@@ -517,11 +535,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         8. tools
 --------------------------------------*/
 .tools {
-    padding:  50px 0 100px;
+    padding:  20px 0 100px;
     border:  1px solid #e5ebf2;
 }
 
-.tools-content {padding-top: 100px;}
+.tools-content {padding-top: 100px; padding-bottom: 100px;}
 .tools-content .col-sm-3{padding:0;}
 .profile-txt {
     display: flex;
@@ -592,7 +610,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         9. photo
 --------------------------------------*/
 .photo {
-    padding:  50px 0 100px;
+    padding:  20px 0 100px;
     border:  1px solid #e5ebf2;
 }
 
@@ -800,6 +818,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     text-transform: capitalize;
     padding: 38px 0;
 }
+
+.time-span{
+    float:right;
+}
+
 .hm-footer-copyright p a {color: #888ea5;}
 /*===============================
     Scroll Top

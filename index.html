@@ -87,26 +87,21 @@
 						<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 							<li>
 								<div class="yinyue">
-									<img class="music" src="./assets/images/dvd.png" alt="" width="30px">
+									<a href="#">
+										<img class="music" src="./assets/images/dvd.png" alt="" width="30px">
+									</a>
 									<audio autoplay="autoplay" id="audio" loop="loop">
 										<source src="./assets/audio/audio1.mp3" type="audio/MP3">
 									</audio>
 								</div>
-								<!-- 左下角音乐播放器 -->
-								<link rel="stylesheet"
-									href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
-								<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
-								<div id="aplayer" class="aplayer" data-autoplay="true" data-id="5208409284"
-									data-server="netease" data-type="playlist" data-fixed="true" data-listfolded="true"
-									data-order="random" data-theme="#F58EA8"></div>				
-								<script src="https://unpkg.com/meting@1.2.0/dist/Meting.min.js"></script>
+
 							</li>
-							<li class="smooth-menu"><a href="#education">教育经历</a></li>
+							<li class="smooth-menu"><a href="#about">关于</a></li>
+							<!-- <li class="smooth-menu"><a href="#education">教育</a></li> -->
 							<li class="smooth-menu"><a href="#skills">技能</a></li>
-							<li class="smooth-menu"><a href="#experience">履历</a></li>
-							<li class="smooth-menu"><a href="#tools">工具箱</a></li>
-							<li class="smooth-menu"><a href="#photo">相册簿</a></li>
-							<li class="smooth-menu"><a href="#contact">联系</a></li>
+							<!-- <li class="smooth-menu"><a href="#experience">履历</a></li> -->
+							<li class="smooth-menu"><a href="#tools">工具</a></li>
+							<li class="smooth-menu"><a href="#photo">相册</a></li>
 						</ul><!--/.nav -->
 					</div><!-- /.navbar-collapse -->
 				</div><!--/.container-->
@@ -126,8 +121,9 @@
 				<div class="col-md-12 text-center">
 					<div class="header-text">
 						<h2></h2>
-						<div>
-							<iframesrc="https://tool.liumingye.cn/music/?page=searchPage#/auth" width="500" height="500" frameborder="0"></iframe>
+						<div class="insert-web">
+							<iframe src="https://tool.liumingye.cn/music/?page=searchPage#/auth" width="800"
+								height="600" frameborder="0"></iframe>
 						</div>
 					</div><!--/.header-text-->
 				</div><!--/.col-->
@@ -148,17 +144,15 @@
 					<div class="col-sm-6">
 						<div class="single-about-txt">
 							<h3>
+								名字：猪猪侠 star<br>
 								配音：陆双<br>
 								年龄：8岁<br>
 								生日：10月5日<br>
 								星座：天秤座<br>
 								爱好：打抱不平、喜爱零食<br>
-
 							</h3>
 							<p>
 								人物概述：故事的主人公，一个出生于边境村镇、生活安逸的少年，个性调皮、乐观，富有好奇心。
-								<br>癖好：喜爱零食，能仅靠糖果饼干度日，吃零食能启发猪猪侠的思维，因此每一次遇到阻碍，他都会掏出一件零食，帮自己渡过难关。
-								<br>变身形态：铁拳虎、五灵王
 							</p>
 							<div class="row">
 								<div class="col-sm-4">
@@ -175,8 +169,16 @@
 								</div>
 								<div class="col-sm-4">
 									<div class="single-about-add-info">
-										<h3>网站</h3>
-										<p>www._.com</p>
+										<div class="hm-foot-icon">
+											<ul>
+												<li><a href="#" title="Github"><i class="fa fa-github"></i></a></li>
+												<li><a href="#" title="微博"><i class="fa fa-weibo"></i></a></li>
+												<li><a href="#" title="QQ"><i class="fa fa-qq"></i></a></li>
+												<li><a href="#" title="微信"><i class="fa fa-wechat"></i></a></li>
+												<li><a href="#" title="音乐"><i class="fa fa-music"></i></a></li>
+												<li><a href="#" title="联系网站作者"><i class="fa fa-send-o"></i></a></li>
+											</ul><!--/ul-->
+										</div><!--/.hm-foot-icon-->
 									</div>
 								</div>
 							</div>
@@ -184,7 +186,9 @@
 					</div>
 					<div class="col-sm-offset-1 col-sm-5">
 						<div class="single-about-img">
-							<img src="assets/images/about/profile_image.jpg" alt="profile_image">
+							<div class="head-img">
+								<img src="assets/images/about/profile_image.jpg" alt="profile_image">
+							</div>
 							<div class="about-list-icon">
 								<ul>
 									<li><a href="./link.html" title="微信"><i class="fa fa-home"></i></a></li>
@@ -194,107 +198,32 @@
 												class="fa fa-music"></i></a></li>
 									<li><a href="mailto:2662496609@qq.com" title="联系网站作者"><i
 												class="fa fa-send-o"></i></a></li>
-
 									<li>
+
 								</ul><!-- / ul -->
 							</div><!-- /.about-list-icon -->
 
 						</div>
 
 					</div>
+					<div class="col-md-offset-1 col-md-5 col-sm-6">
+						<div class="single-contact-box">
+							<a href="https://blog.csdn.net/qq_56633163" target="_blank">
+								<img src="./assets/images/csdn-博客.png" alt="" width="60px"></a>
+							<a href="tencent://message/?uin=2193087641&Site=&Menu=yes">
+								<img src="./assets/images/icon_QQ.png" alt="" width="60px"></a>
+							<a href="mailto:2662496609@qq.com">
+								<img src="./assets/images/email.png" alt="" width="60px"></a>
+							<br><br>
+							<p>希望能成为有梦想、有温度的人<br />遇见就是福 ~</p>
+							<br>
+						</div><!--/.single-contact-box-->
+					</div><!--/.col-->
 				</div>
 			</div>
 		</div>
 	</section><!--/.about-->
 	<!--about end -->
-
-	<!--education start -->
-	<section id="education" class="education">
-		<div class="section-heading text-center">
-			<h2>教育经历</h2>
-		</div>
-		<div class="container">
-			<div class="education-horizontal-timeline">
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="single-horizontal-timeline">
-							<div class="experience-time">
-								<h2>2008 - 2010</h2>
-								<h3>master <span>of </span> computer science</h3>
-							</div><!--/.experience-time-->
-							<div class="timeline-horizontal-border">
-								<i class="fa fa-circle" aria-hidden="true"></i>
-								<span class="single-timeline-horizontal"></span>
-							</div>
-							<div class="timeline">
-								<div class="timeline-content">
-									<h4 class="title">
-										university of north carolina
-									</h4>
-									<h5>north carolina, USA</h5>
-									<p class="description">
-										Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu
-										fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-									</p>
-								</div><!--/.timeline-content-->
-							</div><!--/.timeline-->
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="single-horizontal-timeline">
-							<div class="experience-time">
-								<h2>2004 - 2008</h2>
-								<h3>bachelor <span>of </span> computer science</h3>
-							</div><!--/.experience-time-->
-							<div class="timeline-horizontal-border">
-								<i class="fa fa-circle" aria-hidden="true"></i>
-								<span class="single-timeline-horizontal"></span>
-							</div>
-							<div class="timeline">
-								<div class="timeline-content">
-									<h4 class="title">
-										university of north carolina
-									</h4>
-									<h5>north carolina, USA</h5>
-									<p class="description">
-										Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu
-										fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-									</p>
-								</div><!--/.timeline-content-->
-							</div><!--/.timeline-->
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="single-horizontal-timeline">
-							<div class="experience-time">
-								<h2>2004 - 2008</h2>
-								<h3>bachelor <span>of </span> creative design</h3>
-							</div><!--/.experience-time-->
-							<div class="timeline-horizontal-border">
-								<i class="fa fa-circle" aria-hidden="true"></i>
-								<span class="single-timeline-horizontal spacial-horizontal-line
-									"></span>
-							</div>
-							<div class="timeline">
-								<div class="timeline-content">
-									<h4 class="title">
-										university of bolton
-									</h4>
-									<h5>bolton, united kingdome</h5>
-									<p class="description">
-										Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu
-										fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-									</p>
-								</div><!--/.timeline-content-->
-							</div><!--/.timeline-->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</section><!--/.education-->
-	<!--education end -->
 
 	<!--skills start -->
 	<section id="skills" class="skills">
@@ -414,190 +343,6 @@
 
 	</section><!--/.skills-->
 	<!--skills end -->
-
-	<!--experience start -->
-	<section id="experience" class="experience">
-		<div class="section-heading text-center">
-			<h2>我的履历</h2>
-		</div>
-		<div class="container">
-			<div class="experience-content">
-				<div class="main-timeline">
-					<ul>
-						<li>
-							<div class="single-timeline-box fix">
-								<div class="row">
-									<div class="col-md-5">
-										<div class="experience-time text-right">
-											<h2>2018 - Present</h2>
-											<h3>creative director</h3>
-										</div><!--/.experience-time-->
-									</div><!--/.col-->
-									<div class="col-md-offset-1 col-md-5">
-										<div class="timeline">
-											<div class="timeline-content">
-												<h4 class="title">
-													<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-													hoplony tech limited
-												</h4>
-												<h5>newyork, USA</h5>
-												<p class="description">
-													Duis aute irure dolor in reprehenderit in vol patate velit esse
-													cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat
-													cupidatat non proident.
-												</p>
-											</div><!--/.timeline-content-->
-										</div><!--/.timeline-->
-									</div><!--/.col-->
-								</div>
-							</div><!--/.single-timeline-box-->
-						</li>
-
-						<li>
-							<div class="single-timeline-box fix">
-								<div class="row">
-									<div class="col-md-offset-1 col-md-5 experience-time-responsive">
-										<div class="experience-time">
-											<h2>
-												<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-												2016 - 2018
-											</h2>
-											<h3>associate design director</h3>
-										</div><!--/.experience-time-->
-									</div><!--/.col-->
-									<div class="col-md-5">
-										<div class="timeline">
-											<div class="timeline-content text-right">
-												<h4 class="title">
-													hoplony tech limited
-												</h4>
-												<h5>newyork, USA</h5>
-												<p class="description">
-													Duis aute irure dolor in reprehenderit in vol patate velit esse
-													cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat
-													cupidatat non proident.
-												</p>
-											</div><!--/.timeline-content-->
-										</div><!--/.timeline-->
-									</div><!--/.col-->
-									<div class="col-md-offset-1 col-md-5 experience-time-main">
-										<div class="experience-time">
-											<h2>
-												<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-												2016 - 2018
-											</h2>
-											<h3>associate design director</h3>
-										</div><!--/.experience-time-->
-									</div><!--/.col-->
-								</div>
-							</div><!--/.single-timeline-box-->
-						</li>
-
-						<li>
-							<div class="single-timeline-box fix">
-								<div class="row">
-									<div class="col-md-5">
-										<div class="experience-time text-right">
-											<h2>2013 - 2016</h2>
-											<h3>senior UI/UX designer</h3>
-										</div><!--/.experience-time-->
-									</div><!--/.col-->
-									<div class="col-md-offset-1 col-md-5">
-										<div class="timeline">
-											<div class="timeline-content">
-												<h4 class="title">
-													<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-													hoplony tech limited
-												</h4>
-												<h5>newyork, USA</h5>
-												<p class="description">
-													Duis aute irure dolor in reprehenderit in vol patate velit esse
-													cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat
-													cupidatat non proident.
-												</p>
-											</div><!--/.timeline-content-->
-										</div><!--/.timeline-->
-									</div><!--/.col-->
-								</div>
-							</div><!--/.single-timeline-box-->
-						</li>
-
-						<li>
-							<div class="single-timeline-box fix">
-								<div class="row">
-									<div class="col-md-offset-1 col-md-5 experience-time-responsive">
-										<div class="experience-time">
-											<h2>
-												<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-												2012 - 2013
-											</h2>
-											<h3>UI/UX designer</h3>
-										</div><!--/.experience-time-->
-									</div><!--/.col-->
-									<div class="col-md-5">
-										<div class="timeline">
-											<div class="timeline-content text-right">
-												<h4 class="title">
-													hoplony tech limited
-												</h4>
-												<h5>newyork, USA</h5>
-												<p class="description">
-													Duis aute irure dolor in reprehenderit in vol patate velit esse
-													cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat
-													cupidatat non proident.
-												</p>
-											</div><!--/.timeline-content-->
-										</div><!--/.timeline-->
-									</div><!--/.col-->
-									<div class="col-md-offset-1 col-md-5 experience-time-main">
-										<div class="experience-time">
-											<h2>
-												<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-												2012 - 2013
-											</h2>
-											<h3>UI/UX designer</h3>
-										</div><!--/.experience-time-->
-									</div><!--/.col-->
-								</div>
-							</div><!--/.single-timeline-box-->
-						</li>
-
-						<li>
-							<div class="single-timeline-box fix">
-								<div class="row">
-									<div class="col-md-5">
-										<div class="experience-time text-right">
-											<h2>2010 - 2012</h2>
-											<h3>frontend developer</h3>
-										</div><!--/.experience-time-->
-									</div><!--/.col-->
-									<div class="col-md-offset-1 col-md-5">
-										<div class="timeline">
-											<div class="timeline-content">
-												<h4 class="title">
-													<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-													hoplony tech limited
-												</h4>
-												<h5>newyork, USA</h5>
-												<p class="description">
-													Duis aute irure dolor in reprehenderit in vol patate velit esse
-													cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat
-													cupidatat non proident.
-												</p>
-											</div><!--/.timeline-content-->
-										</div><!--/.timeline-->
-									</div><!--/.col-->
-								</div>
-							</div><!--/.single-timeline-box-->
-						</li>
-
-					</ul>
-				</div><!--.main-timeline-->
-			</div><!--.experience-content-->
-		</div>
-
-	</section><!--/.experience-->
-	<!--experience end -->
 
 	<!--tools start -->
 	<section id="tools" class="tools">
@@ -801,92 +546,29 @@
 	</section><!--/.photo-->
 	<!--photo end -->
 
-	<!--contact start -->
-	<section id="contact" class="contact">
-		<div class="section-heading text-center">
-			<h2>联系我</h2>
-		</div>
-		<div class="container">
-			<div class="contact-content">
-				<div class="row">
-					<div class="col-md-offset-1 col-md-5 col-sm-6">
-						<div class="single-contact-box">
-							<a href="https://blog.csdn.net/qq_56633163" target="_blank">
-								<img src="./assets/images/csdn-博客.png" alt="" width="60px"></a>
-							<a href="tencent://message/?uin=2193087641&Site=&Menu=yes">
-								<img src="./assets/images/icon_QQ.png" alt="" width="60px"></a>
-							<a href="mailto:2662496609@qq.com">
-								<img src="./assets/images/email.png" alt="" width="60px"></a>
-							<br><br>
-							<p>希望能成为有梦想、有温度的人<br />遇见就是福 ~</p>
-							<br>
-
-							<div class="hm-foot-icon">
-								<ul>
-									<li><a href="#" title="Github"><i class="fa fa-github"></i></a></li>
-									<li><a href="#" title="微博"><i class="fa fa-weibo"></i></a></li>
-									<li><a href="#" title="QQ"><i class="fa fa-qq"></i></a></li>
-									<li><a href="#" title="微信"><i class="fa fa-wechat"></i></a></li>
-									<li><a href="#" title="音乐"><i class="fa fa-music"></i></a></li>
-									<li><a href="#" title="联系网站作者"><i class="fa fa-send-o"></i></a></li>
-								</ul><!--/ul-->
-							</div><!--/.hm-foot-icon-->
-							<br>
-							<br>
-							<br>
-							<!-- 本站运行时长 -->
-							<span id="span"></span>
-							<script type="text/javascript">
-								function runtime() {
-									// 初始时间，日/月/年 时:分:秒
-									X = new Date("4/24/2023 0:0:00");
-									Y = new Date();
-									T = (Y.getTime() - X.getTime());
-									M = 24 * 60 * 60 * 1000;
-									a = T / M;
-									A = Math.floor(a);
-									b = (a - A) * 24;
-									B = Math.floor(b);
-									c = (b - B) * 60;
-									C = Math.floor((b - B) * 60);
-									D = Math.floor((c - C) * 60);
-									//信息写入到DIV中
-									span.innerHTML = "本站已运行: " + A + "天" + B + "小时" + C + "分" + D + "秒"
-								}
-								setInterval(runtime, 1000);
-							</script>
-
-						</div><!--/.single-contact-box-->
-					</div><!--/.col-->
-					<div class="col-md-offset-1 col-md-5 col-sm-6">
-						<div class="single-contact-box">
-							<div class="contact-adress">
-								<div class="contact-add-head">
-									<h3>猪猪侠 star</h3>
-									<p>超级猪猪侠饰演主角</p>
-								</div>
-								<div class="contact-add-info">
-									<div class="single-contact-add-info">
-										<h3>phone</h3>
-										<p>987-123-6547</p>
-									</div>
-									<div class="single-contact-add-info">
-										<h3>email</h3>
-										<p>猪猪侠@qq.com</p>
-									</div>
-								</div>
-							</div><!--/.contact-adress-->
-						</div><!--/.single-contact-box-->
-					</div><!--/.col-->
-				</div><!--/.row-->
-			</div><!--/.contact-content-->
-		</div><!--/.container-->
-
-	</section><!--/.contact-->
-	<!--contact end -->
-
 	<!--footer-copyright start-->
 	<footer id="footer-copyright" class="footer-copyright">
+			<!-- 本站运行时长 -->
+			<span id="span" class="time-span"></span>
+			<script type="text/javascript">
+				function runtime() {
+					// 初始时间，日/月/年 时:分:秒
+					X = new Date("4/24/2023 0:0:00");
+					Y = new Date();
+					T = (Y.getTime() - X.getTime());
+					M = 24 * 60 * 60 * 1000;
+					a = T / M;
+					A = Math.floor(a);
+					b = (a - A) * 24;
+					B = Math.floor(b);
+					c = (b - B) * 60;
+					C = Math.floor((b - B) * 60);
+					D = Math.floor((c - C) * 60);
+					//信息写入到DIV中
+					span.innerHTML = "本站已运行: " + A + "天" + B + "小时" + C + "分" + D + "秒"
+				}
+				setInterval(runtime, 1000);
+			</script>
 		<div id="scroll-Top">
 			<div class="return-to-top">
 				<i class="fa fa-angle-up " id="scroll-top"></i>
@@ -898,13 +580,6 @@
 	<!--footer-copyright end-->
 
 	<!-- Include all js compiled plugins (below), or include individual files as needed -->
-
-
-
-
-
-
-
 
 
 
